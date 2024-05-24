@@ -62,3 +62,5 @@ h. Unfreeze the top layers, fine-tune the model, and save the final model.
 1. Upload the Dataset (.h5 file) in Google Drive to access it in google colab
 2. Upload the jupyter notebook file[Model.ipynb](Model.ipynb) to your Google Colab environment.
 3. Follow the cells in the notebook to Train the Deep Learning Model
+#### 6.3.3. Executing evaluation.py:
+1. Do not forget including the Trained [EfficientNetB3](final-b3ic.keras) model in your working directory while executing evaluation.py.
