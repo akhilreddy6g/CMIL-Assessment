@@ -63,4 +63,4 @@ h. Unfreeze the top layers, fine-tune the model, and save the final model.
 2. Upload the jupyter notebook file[Model.ipynb](Model.ipynb) to your Google Colab environment.
 3. Follow the cells in the notebook to Train the Deep Learning Model
 #### 6.3.3. Executing evaluation.py:
-1. Do not forget including the Trained [EfficientNetB3](final-b3ic.keras) model in your working directory while executing evaluation.py.
+1. Do not forget to download the Trained <a href="https://drive.google.com/file/d/1K4mFXM7Y9OZqk1MThaDdo4rb4ssRMamy/view?usp=sharing">EfficientNetB3</a> model and make sure to include it in your working directory while executing evaluation.py.
