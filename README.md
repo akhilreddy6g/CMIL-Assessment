@@ -59,8 +59,8 @@ f. Define and compile the EfficientNetB3 model.
 g. Train the model with frozen layers and save it.
 h. Unfreeze the top layers, fine-tune the model, and save the final model.
 #### 6.3.2. Method-2: Using the pre built dataset (built based on images dataset) directly and Training the deep learning Model
-1. Upload the Dataset (.h5 file) in Google Drive to access it in google colab
+1. Upload the Dataset (<a href = "https://www.kaggle.com/datasets/gaddamakhilreddy/preprocessed-glomeruli-dataset">.h5 file</a>) in Google Drive to access it in google colab.
 2. Upload the jupyter notebook file[Model.ipynb](Model.ipynb) to your Google Colab environment.
-3. Follow the cells in the notebook to Train the Deep Learning Model
+3. Follow the cells in the notebook to Train the Deep Learning Model.
 #### 6.3.3. Executing evaluation.py:
 1. Do not forget to download the Trained <a href="https://drive.google.com/file/d/1IvLaiuuNEjpDDCEQ7LDtBoXAx9S9hbsZ/view?usp=sharing">EfficientNetB3</a> model and make sure to include it in your working directory while executing evaluation.py.
