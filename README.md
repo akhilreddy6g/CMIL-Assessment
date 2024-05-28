@@ -46,10 +46,10 @@ A confusion matrix provides a detailed breakdown of correct and incorrect predic
 7. zipfile
 8. gc
 ### 6.2. Execution Steps:
-#### 6.2.1. Method-1: Building Dataset From Scratch, and then using it to train the Deep Learning Model, through Google Colab
-1. Upload the images dataset (Zip file Recommended) in Google Drive to access it in google colab
-2. Upload the jupyter notebook file([Datagen_b3modeltrain.ipynb](Datagen_b3modeltrain.ipynb)) to your Google Colab environment.
-3. Follow the cells in the notebook to execute the preprocessing steps, model training, and fine-tuning
+#### 6.2.1. Method-1: Building Dataset From Scratch, and then using it to train and fine tune the Deep Learning Model, through Google Colab/Kaggle
+1. Upload the images dataset (Zip file Recommended) in Google Drive to access it in Google Colab/Kaggle if google colab services are not enough.
+2. Upload the jupyter notebook file([Datagen_b3modeltrain.ipynb](Datagen_b3modeltrain.ipynb)) to your Google Colab/Kaggle.
+3. Follow the cells in the notebook to execute the preprocessing steps, model training, and fine-tuning.
 a. Import the required libraries.
 b. Execute the functions to convert images to vectors, resize, and pad them.
 c. Perform data augmentation and save the processed data into an HDF5 file.
@@ -59,8 +59,8 @@ f. Define and compile the EfficientNetB3 model.
 g. Train the model with frozen layers and save it.
 h. Unfreeze the top layers, fine-tune the model, and save the final model.
 #### 6.3.2. Method-2: Using the pre built dataset (built based on images dataset) directly and Training the deep learning Model
-1. Upload the Dataset (<a href = "https://www.kaggle.com/datasets/gaddamakhilreddy/preprocessed-glomeruli-dataset">.h5 file</a>) in Google Drive to access it in google colab.
-2. Upload the jupyter notebook file[Model.ipynb](Model.ipynb) to your Google Colab environment.
+1. Upload the Dataset (<a href = "https://www.kaggle.com/datasets/gaddamakhilreddy/preprocessed-glomeruli-dataset">.h5 file</a>) in Google Drive to access it in google colab/ in kaggle and access it in Kaggle.
+2. Upload the jupyter notebook file[Model.ipynb](Model.ipynb) to your Google Colab/Kaggle.
 3. Follow the cells in the notebook to Train the Deep Learning Model.
 #### 6.3.3. Executing evaluation.py:
-1. Do not forget to download the Trained <a href="https://drive.google.com/file/d/11uOJ0DyONX64G1vd6b6q56f3MEC1FQXR/view?usp=sharing">EfficientNetB3</a> model and make sure to include it in your working directory while executing evaluation.py.
+1. Do not forget to download the Trained <a href="https://drive.google.com/file/d/11uOJ0DyONX64G1vd6b6q56f3MEC1FQXR/view?usp=sharing">EfficientNetB3</a> model and make sure to include it in your working directory while executing evaluation.py. To execute evaluation.py, you can use any IDE/Open source environments like vscode(recommended)/Google Colab/Kaggle.
