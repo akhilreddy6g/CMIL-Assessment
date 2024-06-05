@@ -1,4 +1,4 @@
-# CMIL-Assessment
+# Glomeruli-Image-Classification
 ## 1. Project Overview
 We focus on developing a deep learning model to classify glomeruli images into two categories: globally sclerotic and non-globally sclerotic. The classification is performed using EfficientNetB3, a powerful convolutional neural network architecture that balances model size and performance.
 
